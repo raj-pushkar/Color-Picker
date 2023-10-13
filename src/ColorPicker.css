@@ -1,0 +1,28 @@
+/* ColorPicker.css */
+.color-picker-container {
+  text-align: center;
+}
+
+.color-list {
+  list-style: none;
+  padding: 0;
+  display: flex; /* Display items in a horizontal row */
+}
+
+.color-item {
+  width: 30px;
+  height: 30px;
+  margin-right: 10px;
+  cursor: pointer;
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 250px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: 24px; /* Adjust the font size as needed */
+  margin-bottom: 20px; /* Adjust the margin as needed */
+}
